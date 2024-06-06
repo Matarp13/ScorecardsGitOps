@@ -34,22 +34,8 @@
           }
         ]
       }
-    },
-    {
-      "identifier": "has-resource-def",
-      "title": "Has resource definition",
-      "description": "The service has a link to a resource definition",
-      "level": "Gold",
-      "query": {
-        "combinator": "and",
-        "conditions": [
-          {
-            "operator": "isNotEmpty",
-            "property": "resource_definitions"
-          }
-        ]
-      }
     }
+    
   ]
 }
 ]
